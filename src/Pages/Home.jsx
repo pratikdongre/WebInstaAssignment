@@ -1,8 +1,7 @@
 // src/pages/Home.jsx
 import React from "react";
-import TemplateCard from "../components/TemplateCard";
+import TemplateCard from "../Components/TemplateCard";
 import { useNavigate } from "react-router-dom";
-
 import templates from "../templates";
 import portfolio from "../templates/Portfolio";
 

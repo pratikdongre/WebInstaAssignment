@@ -3,10 +3,9 @@ import { useLocation, useNavigate } from "react-router-dom"; // Add useNavigate
 import { DndContext } from "@dnd-kit/core";
 
 import DroppableCanvas from "./Canvas";
-import ElementProperties from "./PropertyForm";
+import ElementProperties from "./ProperyForm";
 import Sidebar from "./Sidebar";
 import DraggableElement from "./Element";
-import "./Builder.css";
 import CanvasElement from "./CanvasElement";
 
 const Builder = () => {
