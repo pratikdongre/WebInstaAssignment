@@ -8,7 +8,14 @@ A React-based drag-and-drop canvas builder where users can add, move, and style 
 
 The project follows a modular, component-based architecture:
 
-src/ ├── Components/ │ ├── Builder.jsx # Main builder interface and layout │ ├── CanvasElement.jsx # Draggable and resizable elements │ ├── PropertyForm.jsx # Sidebar form for editing element styles/content │ ├── DroppableCanvas.jsx # Main canvas drop zone │ └── Sidebar.jsx # Element selector for adding new items ├── Pages/ │ └── Home.jsx # Entry page with template options ├── App.jsx # Routing and layout
+├── Builder.jsx # Main builder interface and layout │ 
+├── CanvasElement.jsx # Draggable and resizable elements │ 
+├── PropertyForm.jsx # Sidebar form for editing element content │ 
+├── DroppableCanvas.jsx # Main canvas drop zone 
+│── Sidebar.jsx # Element selector for adding new items 
+├── Pages/ 
+│── Home.jsx # Entry page with template options 
+├── App.jsx # Routing and layout
 
 ## 🛠️ Tech Stack
 
